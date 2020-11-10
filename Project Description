@@ -1,0 +1,57 @@
+CS 3345 Data structures and algorithm analysis
+Fall 2020
+Project 2: Skip lists
+Wed, Oct 7, 2020
+
+Due: 11:59 PM, Sun, Oct 25 (elearning).
+
+Ver 1.0: Initial description (Wed, Oct 7).
+
+Project Description:
+
+Implement the following operations of skip lists, following the
+algorithms discussed in class. Starter code is provided.  A driver program is also provided.
+Sample inputs and outputs will be provided.
+
+Do not change the signatures of methods declared to be public.  
+You can add additional fields, nested classes, and methods as needed.
+Do not create additional source files.  Place all code in SkipList.java.
+
+
+* add(x): Add a new element x to the list. If x already exists in
+  the skip list, replace it and return false. Otherwise, insert x 
+  into the skip list and return true.
+
+* ceiling(x): Find smallest element that is greater or equal to x.
+
+* contains(x): Does list contain x?
+
+* first(): Return first element of list.
+
+* floor(x): Find largest element that is less than or equal to x.
+
+* get(n): Return element at index n of list.  First element is at 
+  index 0.
+
+* isEmpty(): Is the list empty?
+
+* iterator(): Iterator for going through the elements of list in
+  sorted order.
+
+* last(): Return last element of list.
+
+* remove(x): Remove x from the list. If successful, removed
+  element is returned.  Otherwise, return null.
+
+* size(): Return the number of elements in the list.
+
+Submission Procedure
+
+* Submit SkipList.java in elearning. 
+
+* You can submit multiple number of time. Only the last
+  submission will be considered.
+
+* If you have worked with a partner, only one of you need to submit
+
+* Include the group members name and netid in the source file
